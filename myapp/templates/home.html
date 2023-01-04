@@ -1,0 +1,77 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static './style.css' %}">
+    </head>
+    <body class="ku">
+        <form id="form">
+
+            <p>Form Information</p>
+  
+         
+            <div class="form-group">
+               <br />
+               <div class="input-group">
+                  <div class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i>            </div>
+                  <input type="text" id="name" placeholder="First Name"/>
+                  </div>
+               </div>
+            <div>
+
+                <div class="form-group">
+                    <br />
+                    <div class="input-group">
+                       <div class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i>            </div>
+                       <input type="text" id="name" placeholder="Last Name"/>
+                       </div>
+                    </div>
+                 <div>
+
+            <div class="form-group">
+               <br />
+               <div class="input-group">
+                  <div class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true">            </i></div>
+                  <input type="email" id="email" placeholder="Email"/>
+                  </div>
+               </div>
+            </div>
+
+            <div class="form-group">
+                <br />
+                <div class="input-group">
+                   <div class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true">            </i></div>
+                   <input type="phone" id="phone" placeholder="Mobile number"/>
+                   </div>
+                </div>
+             </div>
+            
+            <div class="form-group">
+                <label for=courses>Select a Course</label>
+                <select name="courses" id="courses">
+                  <option value="1" disabled>Choose a course</option>
+                  <option value="2">Fullstack Engineer</option>
+                  <option value="3">Backend Engineer </option>
+                  <option value="3">Frontend Engineer </option>
+                  <option value="4">Data Analysis</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="Mode Of Study">Mode Of Study</label>
+                <select name="Mode Of Study" id="Mode Of Study">
+                  <option value="1" disabled>Choose a course</option>
+                  <option value="2">Weekly</option>
+                  <option value="3">Weeckend</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-default">Apply</button>
+         </form>
+        <script src="" async defer></script>
+    </body>
+</html>
